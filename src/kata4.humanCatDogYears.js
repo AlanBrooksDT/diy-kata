@@ -2,10 +2,10 @@ const humanCatDogYears = number => {;
     let catYears = 0;
     let dogYears = 0;
     if (number === 1) {
-        catYears = dogYears = number + 14;
+        catYears = dogYears = 15;
     }
     else if (number === 2) {
-        catYears = dogYears = number + 22;
+        catYears = dogYears = 24;
     }
     else if (number > 2) {
         const numYearsOverTwo = number - 2;
